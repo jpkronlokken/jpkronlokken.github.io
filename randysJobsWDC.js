@@ -102,7 +102,7 @@
   };
 
   myConnector.getData = function (table, doneCallback) {
-    $.getJSON("https://api.servicetitan.com/v1/jobs?filter.createdAfter=2018-06-01T00%3A00%3A00.000&filter.pageSize=10000&serviceTitanApiKey=8e9891b0-181b-4f74-9455-0195f66623d7", function (resp) {
+    $.getJSON("https://api.servicetitan.com/v1/jobs?filter.createdAfter=2018-01-01T00%3A00%3A00.000&filter.pageSize=10000&serviceTitanApiKey=8e9891b0-181b-4f74-9455-0195f66623d7", function (resp) {
       var feat = resp.data,
         tableData = [];
 
