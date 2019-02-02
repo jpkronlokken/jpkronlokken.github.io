@@ -23,6 +23,10 @@
   margin-bottom: 20px;
 }
 
+.wdc-h3 {
+  font-size: 18px;
+}
+
 .logo {
   display: flex;
   justify-content: center;
